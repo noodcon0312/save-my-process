@@ -1,0 +1,48 @@
+{
+  "name": "save-my-process",
+  "version": "1.0.0",
+  "description": "Export/import your shell history, pip/npm package lists, and project files so you don't lose your session when the browser or sandbox closes.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "save-my-process": "bin/cli.js"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "backup",
+    "restore",
+    "session",
+    "export",
+    "cli",
+    "history",
+    "snapshot",
+    "sandbox"
+  ],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/save-my-process.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/save-my-process/issues"
+  },
+  "homepage": "https://github.com/your-username/save-my-process#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

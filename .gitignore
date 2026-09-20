@@ -1,0 +1,12 @@
+node_modules/
+npm-debug.log*
+*.tgz
+*.zip
+*.part
+.test1-export/
+.*-export/
+.smp_import_*/
+export.json
+requirements.txt
+.DS_Store
+.env

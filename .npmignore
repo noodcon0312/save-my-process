@@ -1,0 +1,8 @@
+node_modules
+.test1-export
+.*-export
+.smp_import_*
+*.part
+npm-debug.log*
+.DS_Store
+.env
